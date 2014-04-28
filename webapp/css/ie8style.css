@@ -1,0 +1,9 @@
+.casualties {
+float:left;
+border: 2px;
+border-style: solid;
+border-color: #000000;
+width: 14%;
+padding: 2px;
+margin-right: 10px;
+}

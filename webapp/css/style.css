@@ -1,0 +1,176 @@
+@import url(http://fonts.googleapis.com/css?family=Eater);
+@import url(http://fonts.googleapis.com/css?family=Averia+Sans+Libre:300,400,700,300italic,400italic,700italic);
+
+html { height: 100% }
+
+body {
+	height: 100%; margin: 0px; padding: 0px;
+background: #ed0404;
+color: #FFFFFF;
+font-family: 'Averia Sans Libre';
+}
+
+header.header {
+	display: none;
+}
+
+#page {
+z-index: 1000;
+position: relative;
+width: 187px;
+left: 5em;
+height: 5em;
+}
+
+header {
+text-align: center;
+float: left;
+}
+
+article {
+width: 100%;
+
+}
+.left {
+position:relative;
+float: left;
+width: 20%;
+}
+.counter_wrapper {
+position:relative;
+float: right;
+z-index:1001;
+/*width: 60%;
+display: none;*/
+}
+
+.description {
+	display: none;
+}
+
+.counter_img {
+
+}
+.img {
+float:left;
+width: 16%;
+text-align: center;
+}
+
+div.img img {
+	width: 50%;
+}
+.counters {
+clear:left;
+text-align: center;
+font-family: 'Eater', cursive;
+padding-bottom: 3.5em;
+}
+.casualties {
+float:left;
+border-radius: 5px;
+box-shadow: 0px 0px 6px 2px #000;;
+box-sizing: border-box;
+width: 14%;
+padding: 0.5em;
+margin-right: 0.7em;
+background: #ed0404;
+width: 4em;
+}
+
+footer {
+clear: both;
+text-align: center;
+padding: 2em;
+display:none;
+}
+
+
+
+#map { 
+position: absolute;
+left: 0px;
+top: 0px;
+overflow: hidden;
+width: 100%;
+height: 100%;
+z-index: 0;
+} 
+
+#map_canvas { width: 100%; height: 200px; }
+  
+ #submitmessage {
+position: absolute;
+top: 200px;
+left: 150px; 
+z-index: 100000;
+color: #FFFFFF;
+background:  #ED0404;
+font-size: 2em;	
+border-radius: 5px;
+box-sizing: border-box;
+ 	}
+	
+#search {
+
+	}
+#overlay {
+	background: #666 url(images/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat;
+opacity: .5;
+filter: Alpha(Opacity=50);
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.infoBox {
+
+	}
+form.maps {
+	width: 450px !important;
+	-moz-column-count:3; /* Firefox */
+-webkit-column-count:3; /* Safari and Chrome */
+z-index: 9999;
+box-shadow: 0px 0px 6px 2px #000;
+box-sizing: border-box;
+border-radius: 15px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+padding: 10px;
+background: #ED0404;
+}
+
+form.maps input {
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+}
+
+#help {
+	display:none;
+width: 400px;
+height: 200px;
+overflow: auto;
+background: #FFF;
+border-radius: 15px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+box-shadow: 0px 0px 6px 2px #000;
+box-sizing: border-box;
+z-index: 9999;
+position: absolute;
+right: 15%;
+top: 25%;
+}
+
+.help {
+	background: #FDFFD7;
+opacity: 0.5;
+text-align: center;
+width: 100px;
+margin: 5px;
+padding: 5px;
+font-weight: bold;
+float: right;
+}

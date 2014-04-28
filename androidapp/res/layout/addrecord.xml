@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <ScrollView
+         
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp" 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonSelectDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Select Date"
+            android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/msgTextField"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Headline"
+        />
+    
+   
+
+    <EditText
+        android:id="@+id/locTextField"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location"
+        /> 
+
+    <EditText
+        android:id="@+id/casualties_christians"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:hint="Count Christian Casualties"
+        /> 
+
+    <EditText
+        android:id="@+id/casualties_muslims"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:hint="Count Muslim Casualties"
+        /> 
+
+    <EditText
+        android:id="@+id/casualties_jewish"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:hint="Count Jewish Casualties"
+        /> 
+
+    <EditText
+        android:id="@+id/casualties_hindus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:hint="Count Hindu Casualties"
+        /> 
+
+    <EditText
+        android:id="@+id/casualties_unknown"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:hint="Count nameless Casualties"
+        /> 
+
+    <EditText
+        android:id="@+id/more_link"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Add a Link"
+        />
+    
+    <Button
+        android:text="Publish Casualties"
+        android:id="@+id/sendButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="send"
+        /> 
+         </LinearLayout>
+      </ScrollView>
+</LinearLayout>

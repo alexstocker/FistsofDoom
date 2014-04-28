@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".HomeView" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvIsConnected"
+        android:text="@string/add_casualties" />
+
+    <TextView
+        android:id="@+id/tvIsConnected"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:text="Connection Status" />
+
+    <ImageView
+        android:id="@+id/imageCount1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/count1"
+        android:src="@drawable/fod_teutonic" />
+
+    <ImageView
+        android:id="@+id/imageCount0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/count2"
+        android:layout_toLeftOf="@+id/count1"
+        android:src="@drawable/fod_islam" />
+
+    <ImageView
+        android:id="@+id/imageCount3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/count2"
+        android:layout_toLeftOf="@+id/count2"
+        android:src="@drawable/fod_davidstern" />
+
+    <ImageView
+        android:id="@+id/imageCount2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/count4"
+        android:layout_toLeftOf="@+id/count3"
+        android:src="@drawable/fod_hinduismus" />
+
+    <ImageView
+        android:id="@+id/imageCount4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/count4"
+        android:layout_toLeftOf="@+id/count4"
+        android:src="@drawable/fod_unknown" />
+
+    <TextView
+        android:id="@+id/count4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/count3"
+        android:layout_below="@+id/count3"
+        android:text="@string/count4"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/count0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/total"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/imageCount1"
+        android:text="@string/count0"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/count1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/count0"
+        android:layout_below="@+id/count0"
+        android:text="@string/count1"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/count2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/count1"
+        android:layout_below="@+id/count1"
+        android:text="@string/count2"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/count3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/count2"
+        android:layout_below="@+id/count2"
+        android:text="@string/count3"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/total"
+        android:textColor="@color/titlecolor"
+        android:textSize="42sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/total"
+        android:layout_centerHorizontal="true"
+        android:text="@string/died_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

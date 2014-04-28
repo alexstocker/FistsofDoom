@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fists of Doom - www.holycrusade.org</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_casualties">Add more casualties</string>
+    <string name="count0">Killed Christians</string>
+    <string name="count1">Killed Muslims</string>
+    <string name="count2">Killed Judes</string>
+    <string name="count3">Killed Hindus</string>
+    <string name="count4">Killed nameless</string>
+    <string name="total">Total killed</string>
+    <string name="died_text">victims died on holy crusades</string>
+	<string name="feedback_title">Give feedback</string>
+	
+</resources>
