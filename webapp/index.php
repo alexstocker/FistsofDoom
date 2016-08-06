@@ -64,7 +64,6 @@ $result2 = mysql_query($insquery);
 <script type='text/javascript' src='js/script.js'></script>
 <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false">
 </script>
-<script type='text/javascript' src='http://google-maps-utility-library-v3.googlecode.com/svn/tags/infobox/1.1.9/src/infobox.js'></script>
 
 
  <script type="text/javascript">
