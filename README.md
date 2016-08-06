@@ -5,6 +5,11 @@ Counting human casualties on "holy" crusades
 
 Home and Demo: http://www.derkreuzzug.com/
 
+Motivation
+==========
+Well, for me it's ridiculous to kill or to get killed for religious reasons. And very often it seams to me that the religion is just an excuse.
+With this project I want to show how ridiculous it is.
+
 Components
 ==========
 - web frontend (PHP,MySQL,JS)
@@ -20,3 +25,7 @@ Do changes on includes/prehead.php and change Google Maps API key if necessary t
 
 - Android app =>
 see android/app/Fistsofdoom.apk for APK install package. Just donwnload it to your Android device
+
+Lincense
+========
+see LICENSE.md
